@@ -1,0 +1,150 @@
+[
+    {
+        "id": 1,
+        "name": "Jardin de l'Éden",
+        "creationDate": "2023-01-01T00:00:00Z",
+        "numberOfMembers": 3,
+        "image": "https://media.pri.org/s3fs-public/styles/open_graph/public/story/images/Holyoke%20GARDEN-spring-flowers-2.jpg?itok=t1C8saKT",
+        "members": [
+            {
+                "id": 1,
+                "name": "Alice Martin",
+                "email": "alice.martin@gmail.com",
+                "avatar": "https://picsum.photos/50/50",
+                "credits": 100,
+                "subscriptionDate": "2023-01-01T00:00:00Z"
+            },
+            {
+                "id": 2,
+                "name": "Bob Durand",
+                "email": "bob.durand@gmail.com",
+                "avatar": "https://picsum.photos/50/50",
+                "credits": 90,
+                "subscriptionDate": "2023-02-01T00:00:00Z"
+            },
+            {
+                "id": 3,
+                "name": "Charlie Leclerc",
+                "email": "charlie.leclerc@msn.com",
+                "avatar": "https://picsum.photos/50/50",
+                "credits": 0,
+                "subscriptionDate": "2023-03-01T00:00:00Z"
+            }
+        ],
+        "credits": 150,
+        "areaInSquareMeters": 500,
+        "postalAddress": "123 route de Nantes",
+        "city": "Vertou"
+    },
+    {
+        "id": 2,
+        "name": "Le Petit Paradis",
+        "creationDate": "2023-04-01T00:00:00Z",
+        "numberOfMembers": 2,
+        "image": "https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/field_blog_entry_teaser_image/2020-01/adobestock_99490401-smaller.jpg?itok=yIkQeiD3",
+        "members": [
+            {
+                "id": 4,
+                "name": "Diana Lefevre",
+                "email": "diana.lefevre@msn.com",
+                "avatar": "https://picsum.photos/50/50",
+                "credits": 50,
+                "subscriptionDate": "2023-04-01T00:00:00Z"
+            },
+            {
+                "id": 5,
+                "name": "Edward Dubois",
+                "email": "edward.dubois@gmail.com",
+                "avatar": "https://picsum.photos/50/50",
+                "credits": 0,
+                "subscriptionDate": "2023-05-01T00:00:00Z"
+            }
+        ],
+        "credits": 100,
+        "areaInSquareMeters": 300,
+        "postalAddress": "456 boulevard de la Liberté",
+        "city": "Nantes"
+    },
+    {
+        "id": 3,
+        "name": "Oasis Nantaise",
+        "creationDate": "2023-06-15T00:00:00Z",
+        "numberOfMembers": 4,
+        "image": "https://parkseed.com/images/art/What-to-Grow-in-Your-Summer-Vegetable-Garden-hero.jpg?v=101222650011-1",
+        "members": [
+            {
+                "id": 6,
+                "name": "Fiona Lambert",
+                "email": "fiona.lambert@gmail.com",
+                "avatar": "https://picsum.photos/50/50",
+                "credits": 350,
+                "subscriptionDate": "2023-06-15T00:00:00Z"
+            },
+            {
+                "id": 7,
+                "name": "Gregory Dupuis",
+                "email": "gregory.dupuis@gmail.com",
+                "avatar": "https://picsum.photos/50/50",
+                "credits": 10,
+                "subscriptionDate": "2023-07-01T00:00:00Z"
+            },
+            {
+                "id": 8,
+                "name": "Hannah Moreau",
+                "email": "hannah.moreau@outlook.com",
+                "avatar": "https://picsum.photos/50/50",
+                "credits": 150,
+                "subscriptionDate": "2023-08-01T00:00:00Z"
+            },
+            {
+                "id": 9,
+                "name": "Isaac Bernard",
+                "email": "isaac.bernard@gmail.com",
+                "avatar": "https://picsum.photos/50/50",
+                "credits": 40,
+                "subscriptionDate": "2023-09-01T00:00:00Z"
+            }
+        ],
+        "credits": 200,
+        "areaInSquareMeters": 700,
+        "postalAddress": "789 avenue de la République",
+        "city": "Nantes"
+    },
+    {
+        "id": 4,
+        "name": "Les Jardins de la Loire",
+        "creationDate": "2023-07-01T00:00:00Z",
+        "numberOfMembers": 3,
+        "image": "https://www.budgetdirect.com.au/blog/wp-content/uploads/2020/10/Vegge-Garden-Hero-649x349.jpg",
+        "members": [
+            {
+                "id": 10,
+                "name": "Juliette Petit",
+                "email": "juliette.petit@gmail.com",
+                "avatar": "https://picsum.photos/50/50",
+                "credits": 0,
+                "subscriptionDate": "2023-07-01T00:00:00Z"
+            },
+            {
+                "id": 11,
+                "name": "Kevin Garnier",
+                "email": "kevin.garnier@hotmail.com",
+                "avatar": "https://picsum.photos/50/50",
+                "credits": 50,
+                "subscriptionDate": "2023-07-15T00:00:00Z"
+            },
+            {
+                "id": 12,
+                "name": "Lena Lemoine",
+                "email": "lena.lemoine@gmail.com",
+                "avatar": "https://picsum.photos/50/50",
+                "credits": 450,
+                "subscriptionDate": "2023-08-01T00:00:00Z"
+            }
+        ],
+        "credits": 150,
+        "areaInSquareMeters": 600,
+        "postalAddress": "1012 quai de la Fosse",
+        "city": "Nantes"
+    }
+]
