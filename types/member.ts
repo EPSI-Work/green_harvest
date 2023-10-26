@@ -3,5 +3,6 @@ export type Member = {
     name: string;
     email: string;
     avatar: string;
+    credits: number;
     subscriptionDate: Date;
 };

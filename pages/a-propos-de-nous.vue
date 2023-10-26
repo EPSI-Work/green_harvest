@@ -1,4 +1,6 @@
 <template>
+<div class="about-page">
+<div>
 <h2>Bienvenue sur GreenHarvest</h2>
 <p>La plateforme dédiée aux amoureux du jardinage et à tous ceux qui souhaitent contribuer à créer un espace vert durable et florissant dans leur communauté.</p>
 
@@ -13,4 +15,30 @@
 
 <h2>Nous contacter</h2>
 <p>Nous sommes toujours ravis de recevoir des commentaires, des questions ou des suggestions. N'hésitez pas à nous contacter à [votre email] pour toute demande ou question.</p>
+</div>
+<img src="../public/conf.png">
+</div>
 </template>
+
+<style scoped>
+h2 {
+    font-family: 'Permanent Marker', cursive;
+    color: var(--el-color-primary);
+}
+.about-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 1em auto;
+    width: 90%;
+    text-align: center;
+    border-radius: 1em;
+}
+
+.about-page img {
+    width: 600px;
+    height: 100%;
+    margin: 1em;
+    border-radius: 1em;
+}
+</style>

@@ -4,6 +4,7 @@
         "name": "Alice Martin",
         "email": "alice.martin@gmail.com",
         "avatar": "https://picsum.photos/50/50",
+        "credits": 150,
         "subscriptionDate": "2023-01-01T00:00:00Z"
     },
     {
@@ -11,6 +12,7 @@
         "name": "Bob Durand",
         "email": "bob.durand@gmail.com",
         "avatar": "https://picsum.photos/50/50",
+        "credits": 0,
         "subscriptionDate": "2023-02-01T00:00:00Z"
     },
     {
@@ -18,6 +20,7 @@
         "name": "Charlie Leclerc",
         "email": "charlie.leclerc@msn.com",
         "avatar": "https://picsum.photos/50/50",
+        "credits": 50,
         "subscriptionDate": "2023-03-01T00:00:00Z"
     },
     {
@@ -25,6 +28,7 @@
         "name": "Diana Lefevre",
         "email": "diana.lefevre@msn.com",
         "avatar": "https://picsum.photos/50/50",
+        "credits": 90,
         "subscriptionDate": "2023-04-01T00:00:00Z"
     },
     {
@@ -32,6 +36,7 @@
         "name": "Edward Dubois",
         "email": "edward.dubois@gmail.com",
         "avatar": "https://picsum.photos/50/50",
+        "credits": 20,
         "subscriptionDate": "2023-05-01T00:00:00Z"
     },
     {
@@ -39,6 +44,7 @@
         "name": "Fiona Lambert",
         "email": "fiona.lambert@gmail.com",
         "avatar": "https://picsum.photos/50/50",
+        "credits": 0,
         "subscriptionDate": "2023-06-15T00:00:00Z"
     },
     {
@@ -46,6 +52,7 @@
         "name": "Gregory Dupuis",
         "email": "gregory.dupuis@gmail.com",
         "avatar": "https://picsum.photos/50/50",
+        "credits": 250,
         "subscriptionDate": "2023-07-01T00:00:00Z"
     },
     {
@@ -53,6 +60,7 @@
         "name": "Hannah Moreau",
         "email": "hannah.moreau@outlook.com",
         "avatar": "https://picsum.photos/50/50",
+        "credits": 50,
         "subscriptionDate": "2023-08-01T00:00:00Z"
     },
     {
@@ -60,6 +68,7 @@
         "name": "Isaac Bernard",
         "email": "isaac.bernard@gmail.com",
         "avatar": "https://picsum.photos/50/50",
+        "credits": 40,
         "subscriptionDate": "2023-09-01T00:00:00Z"
     },
     {
@@ -67,6 +76,7 @@
         "name": "Juliette Petit",
         "email": "juliette.petit@gmail.com",
         "avatar": "https://picsum.photos/50/50",
+        "credits": 350,
         "subscriptionDate": "2023-07-01T00:00:00Z"
     },
     {
@@ -74,6 +84,7 @@
         "name": "Kevin Garnier",
         "email": "kevin.garnier@hotmail.com",
         "avatar": "https://picsum.photos/50/50",
+        "credits": 70,
         "subscriptionDate": "2023-07-15T00:00:00Z"
     },
     {
@@ -81,6 +92,7 @@
         "name": "Lena Lemoine",
         "email": "lena.lemoine@gmail.com",
         "avatar": "https://picsum.photos/50/50",
+        "credits": 0,
         "subscriptionDate": "2023-08-01T00:00:00Z"
     }
 ]
