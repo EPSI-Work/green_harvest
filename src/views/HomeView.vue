@@ -11,17 +11,17 @@
     </el-carousel>
     <el-card class="home-page_map">
       <div class="home-page_map-content">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3040.446073807749!2d-1.50896552253542!3d47.18016292711973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4805e8e5e3e9487d%3A0x543c44521a5060ac!2s123%20Rte%20de%20Nantes%2C%2044120%20Vertou!5e0!3m2!1sfr!2sfr!4v1698152345220!5m2!1sfr!2sfr" width="550" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3040.446073807749!2d-1.50896552253542!3d47.18016292711973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4805e8e5e3e9487d%3A0x543c44521a5060ac!2s123%20Rte%20de%20Nantes%2C%2044120%20Vertou!5e0!3m2!1sfr!2sfr!4v1698152345220!5m2!1sfr!2sfr" width="550" height="320" style="border:0;" allowfullscreen="false" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <div>
-          <h2>Retrouvez le {{ exampleGarden.name }}</h2>
-          <p>{{ exampleGarden.areaInSquareMeters }} mètres carré au coeur de {{ exampleGarden.city }}. Ce jardin collaboratif compte actuellement {{ exampleGarden.numberOfMembers }} membres.
-          <br>Depuis sa création en 2023, les participants ont récoltés {{ exampleGarden.credits }} crédits grâce à la revente de légumes provenant du {{ exampleGarden.name }}. Ces crédits ont permis l'achat de matériel pour le jardin collaboratif.</p>
+          <h2>Retrouvez le {{ exampleGarden?.name }}</h2>
+          <p>{{ exampleGarden?.areaInSquareMeters }} mètres carré au coeur de {{ exampleGarden?.city }}. Ce jardin collaboratif compte actuellement {{ exampleGarden?.numberOfMembers }} membres.
+          <br>Depuis sa création en 2023, les participants ont récoltés {{ exampleGarden?.credits }} crédits grâce à la revente de légumes provenant du {{ exampleGarden?.name }}. Ces crédits ont permis l'achat de matériel pour le jardin collaboratif.</p>
         </div>
         </div>
     </el-card>
   </template>
   
-  <script setup>
+  <script setup lang="ts">
   import data from '../data/gardens.json'
   import { ref, onMounted } from 'vue';
   

@@ -1,13 +1,13 @@
 <template>
     <el-card class="join-page_stores">
         <h2>Rejoignez dès maintenant l'aventure GreenHarvest sur notre application mobile.</h2>
-        <img src="../public/app-store.png" width="200">
-        <img src="../public/google-play.png" width="220">
+        <img src="@/assets/app-store.png" width="200">
+        <img src="@/assets/google-play.png" width="220">
     </el-card>
 
     <div class="join-page_views">
-        <img src="../public/app_1.png" width="450">
-        <img src="../public/app_2.png" width="480">    
+        <img src="@/assets/app_1.png" width="450">
+        <img src="@/assets/app_2.png" width="480">    
     </div>
 </template>
 
