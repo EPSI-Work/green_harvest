@@ -16,7 +16,7 @@
 <h2>Nous contacter</h2>
 <p>Nous sommes toujours ravis de recevoir des commentaires, des questions ou des suggestions. N'hésitez pas à nous contacter à contact@greenharvest.fr pour toute demande ou question.</p>
 </div>
-<img src="../public/conf.png">
+<img src="public/conf.png">
 </div>
 </template>
 

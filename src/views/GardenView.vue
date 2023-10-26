@@ -34,16 +34,30 @@
   </div>
 </template>
 
-<script setup>
-import { ref, onMounted } from 'vue'
-import { useRoute } from 'vue-router'
-import data from '~/data/gardens.json'
+<script setup lang="ts">
+import { ref, watch } from 'vue'
+import { useRoute, onBeforeRouteUpdate } from 'vue-router'
+import data from '../data/gardens.json'
 
 const route = useRoute()
 const garden = ref(null)
 
-onMounted(() => {
-  garden.value = data.find(g => g.name === route.params.name)
+const loadGarden = () => {
+  garden.value = data.find(g => g.id == route.params.id)
+}
+
+// Charger le jardin quand le composant est créé
+loadGarden()
+
+// Surveiller les changements de la route
+watch(route, () => {
+  loadGarden()
+})
+
+// Cela peut ne pas être nécessaire si le `watch` fonctionne comme prévu
+onBeforeRouteUpdate((to, from, next) => {
+  loadGarden() // Charger le jardin quand les paramètres de route changent
+  next()
 })
 </script>
 
