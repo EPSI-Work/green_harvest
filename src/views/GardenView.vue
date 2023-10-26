@@ -25,7 +25,7 @@
       </el-col>
       <el-col :span="12">
         <el-card class="garden_map-card">  
-          <iframe class="garden_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3040.446073807749!2d-1.50896552253542!3d47.18016292711973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4805e8e5e3e9487d%3A0x543c44521a5060ac!2s123%20Rte%20de%20Nantes%2C%2044120%20Vertou!5e0!3m2!1sfr!2sfr!4v1698152345220!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe class="garden_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3040.446073807749!2d-1.50896552253542!3d47.18016292711973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4805e8e5e3e9487d%3A0x543c44521a5060ac!2s123%20Rte%20de%20Nantes%2C%2044120%20Vertou!5e0!3m2!1sfr!2sfr!4v1698152345220!5m2!1sfr!2sfr" allowfullscreen="false" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </el-card>
       </el-col>
     </el-row>
@@ -40,10 +40,10 @@ import { useRoute, onBeforeRouteUpdate } from 'vue-router'
 import data from '../data/gardens.json'
 
 const route = useRoute()
-const garden = ref(null)
+const garden = ref()
 
 const loadGarden = () => {
-  garden.value = data.find(g => g.id == route.params.id)
+  garden.value = data.find(g => g.id.toString() == route.params.id) || {}
 }
 
 // Charger le jardin quand le composant est créé
